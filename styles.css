@@ -54,3 +54,21 @@ nav a{
     text-decoration: none;
     color: black;
 }
+
+label, input{
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+section h2{
+    margin-top: 25px;
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(238, 240, 134);
+    background-color: rgb(238, 240, 134);
+}
