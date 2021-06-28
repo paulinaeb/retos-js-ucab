@@ -14,8 +14,15 @@ function moda(lista) {
             return a[1] - b[1];
         }
     );
-
     const moda = listaArray[listaArray.length - 1];
-
     return moda;
 };
+
+function CalcularModa(){
+    const valor= document.getElementById("inputlista").value;
+    const arr = valor.split(','); 
+    for(let i=0; i<arr.length;i++){
+        arr[i]=parseInt(arr[i]);
+    } 
+    document.getElementById("moda").innerText= "La moda de tu lista de numeros es: "+moda(arr);
+}
