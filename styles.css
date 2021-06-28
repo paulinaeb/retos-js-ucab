@@ -55,7 +55,7 @@ nav a{
     color: black;
 }
 
-label, input{
+label, input, p{
     font-size: 1.2rem;
     margin-top: 8px;
 }
