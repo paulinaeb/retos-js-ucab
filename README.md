@@ -7,4 +7,4 @@ Practica de fundamentos de JS by platzi
 
 ## taller n2: porcentajes y descuentos
 
-## taller n4: promedio, mediana y moda
+## taller n3: arreglos
